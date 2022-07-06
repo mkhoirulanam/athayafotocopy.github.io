@@ -9,10 +9,15 @@
     <!-- bootstrap CSS -->
     <!-- My Css -->
     <link rel="stylesheet" href="css/style.css">
+    <!-- My Css -->
+    <!-- Bootstrap Icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <!-- Bootstrap Icon -->
+
   </head>
-  <body>
+  <body id="home">
 <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg" style="background-color: rgb(255, 255, 40);">
+    <nav class="navbar navbar-expand-lg fixed-top" style="background-color: rgb(255, 255, 40);">
       <div class="container">
         <a class="navbar-brand" href="#">Athaya Fotocopy</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -21,13 +26,16 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto ">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link active" aria-current="page" href="#home">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
+              <a class="nav-link active" aria-current="page" href="#project">Project</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contac</a>
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contac">Contac</a>
             </li>
           </ul>
         </div>
@@ -43,7 +51,7 @@
   </section>
 
   <!-- About -->
-    <section>
+    <section id="about">
       <div class="container">
         <div class="row text-center mb-3">
           <div class="col">
@@ -52,15 +60,123 @@
         </div>
       </div>
       <div class="row justify-content-center fs-5 text-center">
-        <div class="col-4">Athaya Fotocopy adalah toko percetakan sekaligus menjual berbagai macam alat-alat sekolah, kerja dan lain lainnya.</div>
-        <div class="col-4">Athaya Fotocopy ber-alamat di Jln. Karas - Prampelan. Yang berada di desa Sobontor Rt 02/Rw 01 Kecamatan Karas Kabupaten magetan</div>
+        <div class="col-md-4">Athaya Fotocopy adalah toko percetakan sekaligus menjual berbagai macam alat-alat sekolah, kerja dan lain lainnya.</div>
+        <div class="col-md-4">Athaya Fotocopy ber-alamat di Jalan Karas - Prampelan. Yang berada di desa Sobontor Rt 02/Rw 01 Kecamatan Karas Kabupaten Magetan.</div>
       </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffff83" fill-opacity="1" d="M0,64L40,80C80,96,160,128,240,138.7C320,149,400,139,480,117.3C560,96,640,64,720,85.3C800,107,880,181,960,192C1040,203,1120,149,1200,112C1280,75,1360,53,1400,42.7L1440,32L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"></path></svg>
     </section>
   <!-- Akhir About -->
+  <!-- Project -->
+    <section id="project" style="background-color:#ffff83">
+      <div class="container text-center">
+        <div class="row">
+          <div class="col">
+            <h2>Project Athaya</h2>
+          </div>
+        </div>
+        <div class="row mt-3">
+          <div class="col-sm-4">
+                    <div class="card mt-3">
+          <img src="img/fotocopy.png" class="card-img-top" alt="fotocopy">
+          <div class="card-body">
+            <p class="card-text">FOTOCOPY</p>
+          </div>
+        </div>
 
+          </div>
+          <div class="col-sm-4">
+                    <div class="card mt-3">
+          <img src="img/printer.png" class="card-img-top" alt="Printing">
+          <div class="card-body">
+            <p class="card-text">PRINTING</p>
+          </div>
+        </div>
 
+          </div>
+          <div class="col-sm-4">
+                    <div class="card mt-3">
+          <img src="img/pengetikan.png" class="card-img-top" alt="pengetikan">
+          <div class="card-body">
+            <p class="card-text">PENGETIKAN</p>
+          </div>
+        </div>
 
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-4">
+                    <div class="card mt-3">
+          <img src="img/laminating.png" class="card-img-top" alt="laminating">
+          <div class="card-body">
+            <p class="card-text">LAMINATING</p>
+          </div>
+        </div>
+
+          </div>
+          <div class="col-sm-4">
+                    <div class="card mt-3">
+          <img src="img/atk.png" class="card-img-top" alt="Alat Tulis Kontan.png">
+          <div class="card-body">
+            <p class="card-text">ATK</p>
+          </div>
+        </div>
+
+          </div>
+          <div class="col-sm-4">
+                    <div class="card mt-3">
+          <img src="img/jilid.png" class="card-img-top" alt="Jilid buku">
+          <div class="card-body">
+            <p class="card-text">JILID BUKU</p>
+          </div>
+        </div>
         
+
+          </div>
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fff" fill-opacity="1" d="M0,64L48,80C96,96,192,128,288,144C384,160,480,160,576,138.7C672,117,768,75,864,74.7C960,75,1056,117,1152,128C1248,139,1344,117,1392,106.7L1440,96L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+
+    </section>
+  <!-- Akhir Project -->
+  <!-- contac -->
+    <section id="contac">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col">
+            <h2>Contac Me</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-8">
+            <form>
+  <div class="form-group" >
+    <label for="name">Nama Lengkap</label>
+    <input type="Name" class="form-control" placeholder="Isi Nama Lengkap" id="Name" aria-describedby="Name">
+  </div>
+  <div class="form-group">
+    <label for="Email">Email</label>
+    <input type="email" class="form-control" placeholder="Isi Email" id="Email" aria-describedby="Email">
+  </div>
+  <div class="form-group">
+    <label for="exampleFormControlTextarea1">Pesan</label>
+    <textarea class="form-control" placeholder="Isi Pesan" id="exampleFormControlTextarea1" rows="3"></textarea>
+  </div>
+  <button type="submit" class="btn btn-warning mt-3">Submit</button>
+  
+</form>
+          </div>
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffff28" fill-opacity="1" d="M0,192L48,202.7C96,213,192,235,288,229.3C384,224,480,192,576,165.3C672,139,768,117,864,128C960,139,1056,181,1152,202.7C1248,224,1344,224,1392,224L1440,224L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+    </section>
+  <!-- contac -->
+  <!-- footer -->
+    <footer class="text-center pb-5" style="background-color:#ffff28">
+      <p>© Created By <a href="https://www.instagram.com/kh.anm_" class="text-black fw-bold">MIFTAKHUL KHOIRUL ANAM</a></p>
+    </footer>
+
+
+  <!-- Akhir Footer -->
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
   </body>
